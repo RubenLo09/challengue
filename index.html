@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <img class="presentacion__contenido__logo" src="./assets/Logo.png" alt="">
+            <input id="input-texto" class="presentacion__contenido__texto__entrada" type="text" placeholder="Ingrese su texto acá">
+            <a class="presentacion__contenido__advetencia" href="#"><img src="./assets/Advertencia.png" alt="">Solo letras minúsculas y sin acentos</a>
+            <div class="presentacion__enlcaces">
+                <a id="btn-encriptar" class="presentacion__botones boton__encriptar" href="#">Encriptar</a>
+                <a id="btn-desencriptar" class="presentacion__botones boton__densencriptar" href="#">Desencriptar</a>
+            </div>
+        </section>
+        <div id="resultado" class="presentacion__img">
+            <div class="presentacion__img__img">
+                <img src="./assets/NoEncontrado.png" alt="">
+            </div>
+            <div class="presentacion__img__txt">
+                <p class="presentacion__img__txt__1">Ningún mensaje fue encontrado</p>
+                <p class="presentacion__img__txt_2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Ruben Lopez Osorio</p>
+    </footer>
+
+    <script src="./javascript.js"></script>
+</body>
+</html>
